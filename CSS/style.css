@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#login-body{
+	background-color: #B0C7ED;
+}
+
+#signup-body{
+	background-color: #D49CB0;
+}
+
+.login{
+	width:250px;
+	margin:200px auto;
+	position: relative;
+}
+
+.signup{
+	width:250px;
+	margin:100px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.main-content{
+	padding:50px;
+	width: 230px;
+	background: #fff;
+	border-radius: 20px;
+}
+
+.registration-form{
+	padding:50px;
+	width: 400px;
+	background: #fff;
+	border-radius: 20px;
+}
+
+.title h1{
+	color: #535274;
+	letter-spacing: 5px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.form, .form-items{
+	width: 100%;
+}
+
+.form-items .input{
+	width: 100%;
+	margin-bottom: 12px;
+	padding: 15px 35px;
+	box-sizing: border-box;
+	background: #e7e7e7;
+	border: 0px;
+ 	outline: none;
+  	border-radius: 30px;
+}
+
+.login .btn{
+	background-color: #9292B0;
+	text-align: center;
+ 	color: #fff;
+  	padding: 12px;
+  	border-radius: 25px;
+  	cursor: pointer;
+}
+
+.login .btn:hover{
+	background: #E0CAED;
+}
+
+
+.btn .fas{
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.form-items{
+  position: relative;
+}
+
+.form-items .fas{
+	position: absolute;
+	top: 15px;
+  	left: 15px;
+  	color: #9292B0;
+}
+
+.sub-content{
+	display: flex;
+	padding:20px;
+	width: 290px;
+	margin-top: 10px;
+	background: #fff;
+	border-radius: 18px;
+}
+
+.sub-content h4{
+	color: #535274;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.my-form .form-group label{
+	display: block;
+	margin-bottom: 5px;
+	color: #535274;
+}
+
+.my-form .input{
+	display: flex;
+}
+
+.my-form .input .form-group{
+	margin-right: 50px;
+}
+.my-form .input  input[type="text"]{
+	width: 165px;
+}
+
+.my-form  input[type="text"]{
+	width: 100%;
+	border-radius: 30px;
+	border: 1px solid #9597a6;
+	background: #e7e7e7;
+	padding: 10px;
+	outline: none;
+}
+
+.my-form  input[type="text"]:focus{
+	border-color: #ebd0ce;
+}
+
+.my-form .form-group{
+	margin-bottom: 15px;
+}
+
+.form-group ul{
+	padding: 8px 10px;
+	border-radius: 3px;
+	display: flex;
+	justify-content: center;
+}
+
+.form-group ul .form-gender {
+	margin-right: 50px;
+	justify-content: center;
+}
+
+.form-group ul .form-gender .input_gender{
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+}
+
+.form-group .input_gender:checked ~ span{
+	background: #ffd5d2;
+}
+
+.form-group .submit_btn{
+	margin-top: 20px;
+	width: 60%;
+	background: #ebd0ce;
+	padding: 10px;
+	border: 0;
+	border-radius: 30px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	cursor: pointer;
+	margin-left: 80px;
+}
+
+.form-group .submit_btn:hover{
+	background: #ffd5d2;
+}
+
+
